@@ -87,9 +87,9 @@ def fisica():
     while True:
         print('Escolha a opção digitando o numero respectivo dela:')
         opcoes()
-        resp = int(input('Sua escolha:'))
+        resp = str(input('Sua escolha:'))
         linha(4)
-        if resp == 1:
+        if resp == '1':
             cinamatica()
         elif resp == '<':
             confirm = str(input('Já vai?[S/N]:'))
